@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1f54f168;
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff4e;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Custom styles for navbar */
+.navbar {
+    margin-bottom: 20px; /* Adjust margin as needed */
+    background-color: #6e0bf921;
+}
+
+.navbar-brand {
+    margin-left: 20%;
+    font-size: 1.9rem; /* Adjust font size of brand name */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Adjust font size of nav links */
+    color: #333; /* Adjust color of nav links */
+    margin-left: 15px; /* Adjust spacing between nav links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Hover color for nav links */
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .nav-link {
+        margin-left: 0; /* Remove margin between nav links on smaller screens */
+    }
+}
